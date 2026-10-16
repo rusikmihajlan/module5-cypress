@@ -1,0 +1,12 @@
+{
+  "name": "module5-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome --headless",
+    "test:firefox": "cypress run --browser firefox --headless",
+    "test:edge": "cypress run --browser edge --headless"
+  },
+  "devDependencies": {"cypress": "16.2.0"}
+}
